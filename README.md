@@ -1,2 +1,2 @@
 # Bootstrap
-Atividades com bootstrap de Frameworks FrontEnd
+Atividades com bootstrap de Framework FrontEnd
