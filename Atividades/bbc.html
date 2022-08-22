@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Bootstrap 4 Example</title>
+        <link rel="shortcut icon" type="image/jpeg" href="images/logobbc.jpeg"/>
+        <title>Notícias, vídeos, análise e contexto em português - BBC News Brasil</title>
         <meta charset="utf-8">
         <meta name="viewpoint" content="width=device-width, inicial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,63 +11,638 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     
     <style>
+        
+        .jumbotron{
+            background-color: rgb(177, 17, 17); 
+            padding: 5px; 
+            border-radius: 0; 
+            margin-bottom: 0px;
+            padding-left: 170px;
+            padding-right: 185px;
+            vertical-align: center;
+            width: 100%;
+             
+        }
+        .jumbotron h1 a:hover{
+            text-decoration: none;
+            border-bottom: 4px solid rgb(255, 255, 255); 
+            padding-bottom: 7px;
+        }
+
         kbd{
-           background-color: white; 
-           color:  rgb(177, 17, 17); 
-           border-radius: 0;
-           padding: 2px;
-           padding-left: 12px;
-           padding-right: 12px;
+            background-color: white; 
+            color:  rgb(177, 17, 17); 
+            border-radius: 0;
+            padding: 1px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: 50%;
+        }
+        a{
+            color: black;
+        }
+        #menu a{
+            padding: 7px;
+            position: relative;
+        }
+        #menu a:hover{
+            text-decoration: none;
+            color: black;
+            border-bottom: 5px solid rgb(177, 17, 17); 
+        }
+
+        #menu .list-inline{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 0px;
+            padding-left: 170px;
+        }
+        .card, .card-body, .card-footer, .card-header{
+            padding: 0px;
+            border: 0px;
+            background-color: white;
+        }
+        #footer a{
+            color: white;
+        } 
+        #footer .card-header, #footer .card-body, #footer .card-footer{
+            background-color: rgb(46, 46, 46);
+            padding: 0px;
+        }
+        #footer .card{
+            border: rgb(46, 46, 46);
+            padding: 0px;
+        }
+        #footer a:hover{
+            text-decoration: underline;
         }
     </style>
-    
-    
-    
-    
     </head>
-<body>
 
+
+<body>
     <div class="container-fluid" style="margin: 0px; padding: 0px;">
-        <div class="jumbotron" style="background-color: rgb(177, 17, 17); padding: 5px; border-radius: 0;">
-            <h1 style="color: white;"><strong> <kbd>B</kbd> <kbd>B</kbd> <kbd>C</kbd> NEWS</strong>BRASIL</h1>
+
+        <div class="jumbotron">
+                <h1>
+                    <a href="" style="color: white;">
+                        <span style="font-weight: 900;"><kbd>B</kbd> <kbd>B</kbd> <kbd>C</kbd></span>
+                        <span style="font-size: 30px;"> NEWS </span> 
+                        <span style="font-size: 23px;"> BRASIL </span>
+                    </a> 
+                </h1>
+        </div>
+
+        <div class="card" id="menu" style="margin-bottom: 35px;">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="" style=" border-bottom: 5px solid rgb(177, 17, 17);">Notícias</a></li>
+                <li class="list-inline-item"><a href="">Brasil</a></li>
+                <li class="list-inline-item"><a href="">Internacional</a> </li>
+                <li class="list-inline-item"><a href="">Economia</a></li>
+                <li class="list-inline-item"><a href="">Saúde</a></li>
+                <li class="list-inline-item"><a href="">Ciência</a></li>
+                <li class="list-inline-item"><a href="">Tecnologia</a></li>
+                <li class="list-inline-item"><a href="">#SalaSocial</a></li>
+                <li class="list-inline-item"><a href="">Vídeos</a> </li>
+            </ul>  
+        </div>
+
+        <div class="conteudo" style="padding-left: 170px; padding-right: 185px;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/lulabbc.jpeg" alt="9 dedos" style="width: 500px; height: 280px;">
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="padding: 0px;">
+                        <div class="card-header" style="background-color: white; border: 0ch;"><h3> <a href="">É possível dizer que Lula foi inocentado na Lava Jato?</a></h3>
+                        </div>
+                        <div class="card-body" style="border-bottom: 1px solid #e0e0e0;">
+                            <p>Processos contra ex-presidente foram encerrados por falta de provas ou por parcialidade de Moro;entenda.</p> 
+                            <p>Há 9 horas</p>
+                        </div>
+                        <div class="card-footer" style="background-color: white; border: 0ch;">
+                            <a href="">'Brasil vai virar Argentina':como país vizinho virou'nova Venezuela'nas redes bolsonaristas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Eleições 2022</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Brasil</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Vídeos</h2>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Guerra na Ucrânia</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Mundo</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Cultura</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Religião</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Meio Amabiente</h2>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo2.jpeg" alt="" style="width: 500px; height: 280px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-body" style="font-size: 25px;"><a href=""> Petistas e antipetistas são mais da metade do eleitorado brasileiro, aponta estudo inédito</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-header"><img src="images/exemplo.jpeg" alt="" style="width: 242px; height: 140px;"></div>
+                        <div class="card-body"><a href=""> Eleições 2022:Sua história
+                            pode virar reportagem da BBC</a></div>
+                        <div class="card-footer">22 agosto 2022</div>
+                    </div>
+                </div>
+            </div>
+            <h2>Mais Lidas</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ol>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                    </ol>
+                </div>
+                <div class="col-md-6">
+                    <ol start="6">
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                        <li><a href=""> Os mitos sobre café e vinho em que talvez você ainda acredite</a></li>
+                    </ol>
+                </div>
+            </div>
+            <h2>Nossos parceiros</h2>
+            <p><a href="">Parceiros comerciais da BBC Brasil</a></p>
+            <h2>Redes sociais</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px; border-left: 1px solid #a0a0a0;">
+                        <div class="card-header" style="text-align: center; vertical-align: middle; ">
+                            <img src="images/face.png" style="width: 70px; height: 80px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px; border-left: 1px solid #a0a0a0;">
+                        <div class="card-header" style="text-align: center; vertical-align: middle;"><img src="images/youtube-logo.png" alt="" style="width: 50px; height: 50px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px; border-left: 1px solid #a0a0a0;">
+                        <div class="card-header" style="text-align: center; vertical-align: middle;"><img src="images/insta.png" alt="" style="width: 40px; height: 40px;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="margin-top: 20px; border-left: 1px solid #a0a0a0;">
+                        <div class="card-header" style="text-align: center; vertical-align: middle;"><img src="images/Twitter_logo.png" alt="" style="width: 40px; height: 30px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            
         </div>
         
-        <div class="row">
-            <ul style="list-style-type: none;">
-                <li style="display: list-inline-item;">
-                    <a href="">Notícias</a>
-                    <a href="">Brasil</a>  
-                    <a href="">Internacional</a> 
-                    <a href="">Economia</a> 
-                    <a href="">Saúde</a> 
-                    <a href="">Ciência</a> 
-                    <a href="">Tecnologia</a> 
-                    <a href="">#SalaSocial</a> 
-                    <a href="">Vídeos</a> 
-                </li>
-            </ul>
-        </div>          
+        <div class="jumbotron" style="margin-top: 75px;">
+            <div>
+                <h1 style="color: white; font-size: 35px;">
+                        <a href="" style="color: white;"><strong> <kbd>B</kbd> <kbd>B</kbd> <kbd>C</kbd></strong> NEWS <span style="font-size: 25px;"> BRASIL </span></a> 
+                </h1>
+            </div>
+        </div>
         
+        <div class="jumbotron" id="footer" style="background-color: rgb(46, 46, 46);">
+            <div class="card" style="background-color: rgb(46, 46, 46);">
+                <div class="card-header" style="border-bottom: 1px solid #535353;">
+                    <a href=""><p>Por que você pode confiar na BBC</p></a>
+                </div>
+                <div class="card-body" style="border-bottom: 1px solid #535353;">
 
+                    <ul class="list-inline" style="list-style: none;">
+                        <li class="list-inline-item"><a href="" style="text-decoration: underline;">Termos de Uso</a></li>
+                        <li class="list-inline-item"><a href="">Política de privacidade</a></li>
+                        <li class="list-inline-item"><a href="">Contate a BBC</a></li>
+                    </ul>
+                    <ul class="list-inline" style="list-style: none;">
+                        <li class="list-inline-item"><a href="">Sobre a BBC</a></li>
+                        <li class="list-inline-item"><a href="">Cookies</a></li>
+                        <li class="list-inline-item"><a href=""> AdChoices / Do Not Sell My Info</a></li>
+                    </ul>
+
+                </div>
+                <div class="card-footer">
+                   <p style="color: white;">© 2022 BBC. A BBC não se responsabiliza pelo conteúdo de sites externos. <a href="">Leia sobre nossa política em relação a links externos.</p></a> 
+                </div>
+            </div> 
+        </div>
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
