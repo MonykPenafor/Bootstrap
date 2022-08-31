@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Twitter</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, inicial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <style>
+            *{
+                padding: 0%;
+                margin: 0px;
+            }
+            div.jumbotron{
+                padding: 0px;
+                margin: 0px;
+            border-radius: 0; 
+            }
+            li{
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            h1{
+                font-size: 20px;
+            }
+            #divBusca{
+            background-color:#2F4F4F;
+            border:solid 1px;
+            border-radius:15px;
+            width:300px;
+            }
+
+            #txtBusca{
+            float:left;
+            background-color:transparent;
+            padding-left:5px;
+            font-style:italic;
+            font-size:18px;
+            border:none;
+            height:32px;
+            width:260px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: rgb(42, 173, 173);
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container-fluid">   
+            <div class="row">
+                <div class="col-md-3">
+                    <ul style="display: block; list-style: none;">
+                       <li> <a href=""><img src="images/twitter-trans.png" alt="" style="width:27px;"></a></li>
+                       <li> <a href=""><img src="images/1.png" alt="" style="width: 40px;">Página Inicial</a></li>
+                       <li> <a href=""><img src="images/2.png" alt="" style="width: 40px;">Explorar</a></li>
+                       <li> <a href=""><img src="images/3.png" alt="" style="width: 40px;">Notificações</a></li>
+                       <li> <a href=""><img src="images/4.png" alt="" style="width: 40px;">Mensagens</a></li>
+                       <li> <a href=""><img src="images/5.png" alt="" style="width: 40px;">Itens Salvos</a></li>
+                       <li> <a href=""><img src="images/6.png" alt="" style="width: 40px;">Lista</a></li>
+                       <li> <a href=""><img src="images/7.png" alt="" style="width: 40px;">Perfil</a></li>
+                       <li> <a href=""><img src="images/8.png" alt="" style="width: 40px;">Mais</a></li>
+                    </ul>
+                    <div class="card" style="background-color: rgb(28, 183, 211); border-radius: 25px;">
+                        <h1 style=" text-align: center;"><a href="" style="color: white;">Tweet</a></h1>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="jumbotron">
+                                <h1 style="font-size: 20px;"><img src="images/10.png" alt=" " style="width: 40px;"> Ricardo </h1>
+                                <p style="font-size: 15px; margin: 0px;">5.589 Tweets</p>
+                    </div>
+                    <div class="jumbotron" style="background-color: blue; height: 170px;">
+                    </div>
+                    <div class="row">
+                        <img src="images/pessoa.jpg" alt="" class="rounded-circle" style="width: 150px; height: 150px;">
+                        <h4>Editar perfil</h4>
+                    </div>
+                    <div>
+                        <h1>Ricardo</h1>
+                        <h3>@ricardinho</h3>
+                        <p>artista formado em taltsltal em ano tal artista formado em taltsltal em ano tal artista formado em taltsltal em ano tal artista formado em taltsltal em ano tal artista formado em taltsltal em ano tal</p>
+                    </div>
+                    <div class="card" id="menu" style="margin-bottom: 35px; border-bottom: 1px solid rgb(230, 230, 230);">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="">Tweets</a></li>
+                            <li class="list-inline-item"><a href="">Tweets e respostas</a> </li>
+                            <li class="list-inline-item"><a href="">Mídia</a></li>
+                            <li class="list-inline-item"><a href="">Curtidas</a></li>
+                        </ul>  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                       <div id="divBusca">
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                        <img src="images/11.png" id="btnBusca" alt="Buscar" style="width: 15px;"/>
+                        </div> 
+                    </div>
+                    
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Talvez você curta </h1>
+                            
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                       <h4>Amanda</h4>
+                                        <p>@amandinha</p> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3>Seguir</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h4>Amanda</h4>
+                                        <p>@amandinha</p> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3>Seguir</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                       <h4>Amanda</h4>
+                                        <p>@amandinha</p> 
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3>Seguir</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href=""><h3 style="color: rgb(48, 187, 187);">Mostrar Mais</h3></a>
+                        </div>
+                </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h1>Tendencias de Mundial <img src="images/9.png" alt="" style="width: 30px; margin-left: 100px;" ></h1>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <p>1. Assuntos do Momento</p>
+                                    <p>Copa do Mundo</p>
+                                    <p>4 M Tweest</p>
+                                </div>
+                                <div class="card-body">
+                                    <p>1. Assuntos do Momento</p>
+                                    <p>Copa do Mundo</p>
+                                    <p>4 M Tweest</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
