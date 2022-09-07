@@ -20,6 +20,29 @@
                 <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
                 <a href="#" class="btn btn-primary disabled">Disabled Link</a>
             </div>
+                
+            <h2>Nesting Button Groups</h2>
+            <p>Nest button groups to create dropdown menus:</p>
+            <div class="btn-group">
+                    
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                    
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tablet</a>
+                        <a class="dropdown-item" href="#">Smartphone</a>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <h2>Badges Inside a button</h2>
+                <button type="button" class="btn btn-primary"> Messages <span class="badge badge-light" >4</span></button>
+                <button type="button" class="btn btn-danger">Notifications <span class="badge badge-light">7</span></button>
+            </div>
+            
         </div>
     </body>
 
